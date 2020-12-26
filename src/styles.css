@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.hello,
+.messages,
+.counterOne,
+.counterFive,
+.componentParent,
+.userList,
+.form,
+.fragment,
+.parentComp,
+.refsDemo,
+.refsInput,
+.frParentInput {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
