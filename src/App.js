@@ -13,6 +13,8 @@ import RefsDemo from "./RefsDemo";
 import RefsInput from "./RefsInput";
 import FRParentInput from "./FRParentInput";
 import PortalDemo from "./PortalDemo";
+import ErrorBoundary from "./ErrorBoundary";
+import ErrorDemo from "./ErrorDemo";
 
 export default function App() {
   return (
@@ -30,6 +32,12 @@ export default function App() {
       <RefsInput />
       <FRParentInput />
       <PortalDemo />
+      <ErrorBoundary>
+        <ErrorDemo name="batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <ErrorDemo name="joker" />
+      </ErrorBoundary>
     </div>
   );
 }
