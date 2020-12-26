@@ -12,6 +12,7 @@ import ParentComp from "./ParentComp";
 import RefsDemo from "./RefsDemo";
 import RefsInput from "./RefsInput";
 import FRParentInput from "./FRParentInput";
+import PortalDemo from "./PortalDemo";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       <RefsDemo />
       <RefsInput />
       <FRParentInput />
+      <PortalDemo />
     </div>
   );
 }
