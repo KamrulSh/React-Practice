@@ -17,7 +17,10 @@
 .frParentInput,
 .portalDemo,
 .clickCounter,
-.hoverCounter {
+.hoverCounter,
+.hoverCounterTwo,
+.clickCounterTwo,
+.person {
   border: 1px solid black;
   margin-bottom: 10px;
   padding-bottom: 10px;

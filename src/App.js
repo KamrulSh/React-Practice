@@ -17,6 +17,10 @@ import PortalDemo from "./PortalDemo";
 import ErrorDemo from "./ErrorDemo";
 import ClickCounter from "./ClickCounter";
 import HoverCounter from "./HoverCounter";
+import Person from "./Person";
+import ClickCounterTwo from "./ClickCounterTwo";
+import HoverCounterTwo from "./HoverCounterTwo";
+import Counter from "./Counter";
 
 export default function App() {
   return (
@@ -42,8 +46,20 @@ export default function App() {
       <ErrorBoundary>
         <ErrorDemo name="joker" />
       </ErrorBoundary> */}
-      <ClickCounter />
+      <ClickCounter name="shahin" />
       <HoverCounter />
+      <Person render={(isLoggedIn) => (isLoggedIn ? "shahin" : "guest")} />
+      {/* implement render props */}
+      <Counter
+        render={(count, incrementFunc) => (
+          <ClickCounterTwo count={count} incrementFunc={incrementFunc} />
+        )}
+      />
+      <Counter
+        render={(count, incrementFunc) => (
+          <HoverCounterTwo count={count} incrementFunc={incrementFunc} />
+        )}
+      />
     </div>
   );
 }
