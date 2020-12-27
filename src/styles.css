@@ -15,7 +15,9 @@
 .refsDemo,
 .refsInput,
 .frParentInput,
-.portalDemo {
+.portalDemo,
+.clickCounter,
+.hoverCounter {
   border: 1px solid black;
   margin-bottom: 10px;
   padding-bottom: 10px;

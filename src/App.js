@@ -15,6 +15,8 @@ import FRParentInput from "./FRParentInput";
 import ErrorBoundary from "./ErrorBoundary";
 import PortalDemo from "./PortalDemo";
 import ErrorDemo from "./ErrorDemo";
+import ClickCounter from "./ClickCounter";
+import HoverCounter from "./HoverCounter";
 
 export default function App() {
   return (
@@ -40,6 +42,8 @@ export default function App() {
       <ErrorBoundary>
         <ErrorDemo name="joker" />
       </ErrorBoundary> */}
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
