@@ -21,7 +21,9 @@
 .hoverCounterTwo,
 .clickCounterTwo,
 .person,
-.component {
+.component,
+.postList,
+.postForm {
   border: 1px solid black;
   margin-bottom: 10px;
   padding-bottom: 10px;

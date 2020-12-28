@@ -23,6 +23,8 @@ import HoverCounterTwo from "./HoverCounterTwo";
 import Counter from "./Counter";
 import ComponentA from "./ComponentA";
 import { UserProvider } from "./userContext";
+import PostList from "./PostList";
+import PostForm from "./PostForm";
 
 export default function App() {
   return (
@@ -65,6 +67,8 @@ export default function App() {
       <UserProvider value="shahin">
         <ComponentA />
       </UserProvider>
+      <PostList />
+      <PostForm />
     </div>
   );
 }
