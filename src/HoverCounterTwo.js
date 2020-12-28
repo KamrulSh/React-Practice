@@ -5,7 +5,7 @@ class HoverCounterTwo extends React.Component {
   render() {
     const { count, incrementFunc } = this.props;
     return (
-      <div className="hoverCounter">
+      <div className="">
         <h1 onMouseOver={incrementFunc}>
           Hover clicked {count} times (render)
         </h1>

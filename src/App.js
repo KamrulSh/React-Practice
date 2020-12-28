@@ -21,6 +21,8 @@ import Person from "./Person";
 import ClickCounterTwo from "./ClickCounterTwo";
 import HoverCounterTwo from "./HoverCounterTwo";
 import Counter from "./Counter";
+import ComponentA from "./ComponentA";
+import { UserProvider } from "./userContext";
 
 export default function App() {
   return (
@@ -60,6 +62,9 @@ export default function App() {
           <HoverCounterTwo count={count} incrementFunc={incrementFunc} />
         )}
       />
+      <UserProvider value="shahin">
+        <ComponentA />
+      </UserProvider>
     </div>
   );
 }
